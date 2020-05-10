@@ -1,0 +1,42 @@
+.row {
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+}
+
+.col-8 {
+  width: 65%;
+}
+
+.col-3 {
+  width: 24%;
+}
+
+.col-2 {
+  width: 16%;
+}
+
+.col-10 {
+  width: 83%;
+}
+
+.col-4 {
+  width: 31%;
+}
+
+@media (max-width: 980px) {
+  .row {
+    justify-content: space-around;
+  }
+
+  .col-6 {
+    width: 48%;
+  }
+}
+
+@media (max-width: 780px) {
+  .col {
+    width: 100% !important;
+  }
+}

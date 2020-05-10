@@ -1,0 +1,27 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Lato", Helvetica, sans-serif;
+  outline: 0;
+}
+
+ul {
+  list-style: none;
+}
+
+html,
+body {
+  height: 100%;
+}
+
+a {
+  text-decoration: none;
+}
+
+button {
+  cursor: pointer;
+  border: 0;
+  background-color: transparent;
+  outline: 0;
+}

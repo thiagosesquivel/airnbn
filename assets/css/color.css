@@ -1,0 +1,18 @@
+.pink {
+  background: linear-gradient(
+    to right,
+    #e61e4d 0%,
+    #e31c5f 50%,
+    #d70466 100%
+  ) !important;
+  color: #fff;
+  font-weight: bold;
+}
+
+.pink:hover {
+  background: #e61e4d !important;
+}
+
+.font-pink {
+  color: #e31c5f;
+}

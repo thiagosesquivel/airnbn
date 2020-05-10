@@ -1,0 +1,284 @@
+.container {
+  width: 96%;
+  margin: auto;
+  max-width: 1200px;
+}
+
+.h-100 {
+  height: 100%;
+}
+
+.mr-3 {
+  margin-right: 30px;
+}
+
+.w-100 {
+  width: 100%;
+}
+
+.d-flex {
+  display: flex;
+}
+.flex-end {
+  justify-content: flex-end;
+}
+
+.column {
+  flex-direction: column;
+}
+
+.align-center {
+  align-items: center;
+}
+
+.top-menu {
+  width: 100%;
+  height: 100px;
+  background-color: #fff;
+  box-shadow: 0 0 6px 0 rgba(189, 195, 199, 1);
+}
+
+.nav {
+  margin: auto;
+  display: flex;
+  justify-content: space-between;
+  height: 100%;
+  align-items: center;
+  padding: 10px 0;
+}
+
+.nav a {
+  height: 100%;
+  width: 10%;
+}
+
+.nav > a > img {
+  height: 100%;
+}
+
+.button {
+  max-width: 150px;
+  max-height: 50px;
+  height: 40px;
+  width: max-content;
+  font-weight: 700;
+  border-radius: 20px;
+  font-size: 14px;
+  padding: 10px 15px;
+  color: #000;
+}
+
+.button-small {
+  max-width: 120px;
+}
+
+.button-outline {
+  box-shadow: 0 0 6px 0 rgba(189, 195, 199, 1);
+  transition: all 0.3s;
+  margin-left: 20px;
+}
+
+.button-outline:hover {
+  box-shadow: 0 0 12px 0 rgba(189, 195, 199, 1);
+}
+
+.button-light:hover {
+  background-color: #ecf0f1;
+  transition: all 0.3s;
+}
+
+.more-button {
+  display: flex;
+  margin: 30px auto 0;
+}
+
+.inline-form {
+  box-shadow: 0 0 6px 0 rgba(189, 195, 199, 1);
+  margin-top: 30px;
+  height: 70px;
+  border-radius: 8px;
+  justify-content: space-around !important;
+}
+
+.search-button {
+  margin-right: 40px;
+  width: 90px;
+  height: 70%;
+  margin: auto;
+  border-radius: 8px;
+}
+.form-input-search {
+  display: flex;
+  width: 100%;
+  box-shadow: 0 0 6px 0 rgba(189, 195, 199, 1);
+  max-height: 58px;
+  padding: 10px;
+  border-radius: 30px;
+}
+
+.header-visited {
+  display: flex;
+  align-items: center;
+}
+
+.header-visited a {
+  margin-left: 30px;
+}
+
+#options-places {
+  position: relative;
+  width: 90%;
+  background-color: #fff;
+  z-index: 2;
+  padding: 30px 0;
+  box-shadow: 0 0 6px 0 rgba(189, 195, 199, 1);
+}
+
+#options-places li {
+  display: flex;
+  padding: 10px;
+  align-items: center;
+  cursor: pointer;
+  color: rgba(0, 0, 0, 1);
+}
+
+#options-places li:hover {
+  background-color: rgba(189, 195, 199, 1);
+}
+
+.group-search {
+  display: flex;
+  margin: 30px 0 0;
+  width: 50%;
+  background: #fff;
+  align-items: center;
+  border-radius: 30px;
+  flex-direction: column;
+}
+.input-place {
+  width: 90%;
+  background: transparent;
+  border: 0;
+  font-size: 18px;
+  padding: 5px 15px;
+}
+
+.card {
+  margin-top: 40px;
+  position: relative;
+  border-radius: 16px;
+  box-shadow: 0 0 6px 0 rgba(189, 195, 199, 1);
+  color: #000;
+  cursor: pointer;
+  transition: 0.3s all;
+}
+
+.card:hover {
+  box-shadow: 0 0 12px 0 rgba(189, 195, 199, 1);
+  transform: scale(1.01);
+  transition: 0.3s all;
+}
+
+.card-image {
+  width: 100%;
+  border-radius: 16px 16px 0 0;
+}
+
+.header-places {
+  display: flex;
+  justify-content: space-between;
+}
+
+.card-body {
+  padding: 20px;
+}
+
+.card-description {
+  color: #717171;
+}
+.label-city {
+  position: absolute;
+  right: 10px;
+  top: 30px;
+  background: rgba(255, 255, 255, 0.8);
+  height: 30px;
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 5px 15px;
+  border-radius: 25px;
+  box-shadow: 0 0 6px 0 rgba(0, 0, 0, 0.6);
+  font-weight: bold;
+}
+
+.main {
+  margin-top: 30px;
+}
+
+.rodape {
+  display: flex;
+  height: 200px;
+  align-items: center;
+  justify-content: center;
+  margin-top: 40px;
+  background-color: rgba(45, 52, 54, 1);
+  color: #fff;
+}
+
+#type-place option {
+  border-radius: 16px;
+}
+
+#list-dropdown {
+  display: none;
+  width: 110%;
+  margin-left: -5%;
+  position: relative;
+  background: #fff;
+  margin-top: 10px;
+  padding: 10px 0;
+  border-radius: 0 0 8px 8px;
+  box-shadow: 0 5px 6px 0 rgba(189, 195, 199, 1);
+}
+
+#list-dropdown > li {
+  padding: 10px 15px;
+  font-size: 24px;
+}
+
+#list-dropdown > li:hover {
+  background-color: rgba(189, 195, 199, 1);
+}
+
+.places {
+  margin-top: 40px;
+}
+
+.filter {
+  margin-top: 30px;
+  display: none !important;
+  transition: all 0.3s;
+}
+
+#filters {
+  justify-content: flex-start;
+}
+
+#filters div {
+  margin-top: 20px;
+}
+
+.inputs-show {
+  display: flex !important;
+  transition: all 0.3s;
+}
+
+@media (max-width: 780px) {
+  .group-search {
+    width: 90%;
+  }
+  .container {
+    width: 90%;
+  }
+}
