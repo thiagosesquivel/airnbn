@@ -274,6 +274,19 @@
   transition: all 0.3s;
 }
 
+.social-media {
+  color: #fff;
+  font-size: 60px;
+}
+
+.fab:hover {
+  color: #e61e4d;
+}
+
+.social-media:first-child {
+  margin-right: 10px;
+}
+
 @media (max-width: 780px) {
   .group-search {
     width: 90%;
